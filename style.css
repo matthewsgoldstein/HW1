@@ -45,12 +45,6 @@ nav > #cs52 {
   }
 }
 
-@media screen and (max-width: 700px) {
-  #links {
-    flex-direction: column;
-  }
-}
-
 #toplinks > a {
   margin-left: 10px;
   margin-right: 10px;
@@ -75,7 +69,8 @@ nav > #cs52 {
   display: flex;
   flex-direction: column;
   margin: auto;
-  padding: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   text-align: center;
   justify-content: center;
 }
@@ -98,10 +93,13 @@ nav > #cs52 {
 }
 
 #pageinfo > #input {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   margin: auto;
   order: 3;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 60px;
+  padding-right: 60px;
   padding-top: 40px;
   padding-bottom: 20px;
   background-color: rgba(0, 0, 0, .5);
@@ -161,6 +159,7 @@ button {
   font-size: 24px;
   padding: 10px;
   box-shadow: 0 5px 0 #006599;
+  margin-top: 20px;
 }
 
 button:active {
@@ -178,11 +177,16 @@ footer {
   justify-content: flex-end;
   flex-wrap: nowrap;
   height: 50px;
-  background: rgba(0, 0, 0, .5);
+  background: rgba(0, 0, 0, .6);
   padding-bottom: 10px;
 }
 
 footer > span {
   padding-right: 20px;
   padding-top: 20px;
+}
+
+footer > span > a {
+  margin-right: 10px;
+  margin-left: 10px;
 }
