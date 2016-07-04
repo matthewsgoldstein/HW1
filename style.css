@@ -1,0 +1,184 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url(background.jpg);
+}
+
+#main {
+  padding: 0;
+  margin: 0;
+  font-family: "Assistant", sans-serif;
+  color: white;
+  background-color: rgba(0, 0, 0, .2);
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+nav > #cs52 {
+  font-size: 56px;
+  font-family: "Muli";
+}
+
+#toplinks {
+  font-size: 24px;
+  font-family: "Muli";
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 750px) {
+  #toplinks {
+    flex-direction: column;
+    padding-top: 0px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #links {
+    flex-direction: column;
+  }
+}
+
+#toplinks > a {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+#toplinks > #signin {
+  border: 3px solid;
+  border-color: rgba(255, 255, 255, .5);
+  border-radius: 5px;
+}
+
+#toplinks > #signin:hover {
+  border-color: white;
+}
+
+#pageinfo {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 100px;
+  text-align: center;
+  justify-content: center;
+}
+
+#pageinfo > h1 {
+  margin: auto;
+  order: 1;
+  font-size: 64px;
+  text-shadow: 2px 2px 2px #0f0f0f;
+  width: 100%;
+}
+
+#pageinfo > #toptext {
+  margin: auto;
+  order: 2;
+  font-size: 24px;
+  font-family: "Muli";
+  padding-bottom: 35px;
+  padding-top: 20px;
+}
+
+#pageinfo > #input {
+  margin: auto;
+  order: 3;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 5%;
+}
+
+#input > #bottomtext {
+  font-size: 18px;
+  font-family: "Muli";
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+  font-family: "Muli";
+  font-size: 20px;
+}
+
+#links > ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#links > ul > li > a:hover {
+  text-decoration: underline;
+}
+
+input {
+  font-family: "Muli";
+  color: darkgrey;
+  font-size: 24px;
+  padding: 10px;
+  border-radius: 5%;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  background-color: #0087cc;
+  border: none;
+  text-align: center;
+  text-decoration: bold;
+  font-family: "Assistant", sans-serif;
+  border-radius: 5%;
+  color: white;
+  font-size: 24px;
+  padding: 10px;
+  box-shadow: 0 5px 0 #006599;
+}
+
+button:active {
+  box-shadow: 0 2px 0 #006599;
+  transform: translateY(3px);
+}
+
+button:focus {
+  outline: none;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  height: 50px;
+  background: rgba(0, 0, 0, .5);
+  padding-bottom: 10px;
+}
+
+footer > span {
+  padding-right: 20px;
+  padding-top: 20px;
+}
