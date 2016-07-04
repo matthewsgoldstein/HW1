@@ -67,6 +67,10 @@ nav > #cs52 {
   border-color: white;
 }
 
+#toplinks > .link:hover {
+  text-decoration: overline;
+}
+
 #pageinfo {
   display: flex;
   flex-direction: column;
