@@ -43,6 +43,10 @@ nav > #cs52 {
     flex-direction: column;
     padding-top: 0px;
   }
+
+  #links {
+    display: none;
+  }
 }
 
 #toplinks > a {
@@ -189,4 +193,9 @@ footer > span {
 footer > span > a {
   margin-right: 10px;
   margin-left: 10px;
+}
+
+footer > span > p {
+  padding-left: 20px;
+  margin-bottom: 20px;
 }
