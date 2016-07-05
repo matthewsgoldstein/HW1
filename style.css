@@ -46,6 +46,7 @@ nav > #cs52 {
 
   #links {
     display: none;
+    height: 0px;
   }
 }
 
