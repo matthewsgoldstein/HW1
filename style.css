@@ -141,6 +141,8 @@ input:focus {
   outline: none;
 }
 
+/* SOME OF FOLLOWING BUTTON CODE ADAPTED FROM CS52 BUTTON TUTORIAL ON cs52.me*/
+
 button {
   background-color: #0087cc;
   border: none;
@@ -184,6 +186,9 @@ button:focus {
 #links > ul > li > a:hover {
   text-decoration: underline;
 }
+
+/* CODE BETWEEN THIS AND 'END' COMMENT ADAPTED FROM
+http://dabblet.com/gist/1507019 */
 
 div.check {
   position: relative;
@@ -251,6 +256,8 @@ p.hidden {
 input[type=checkbox]:checked ~ h2 ~ p {
   max-height: 80px;
 }
+
+/*END*/
 
 footer {
   display: flex;
