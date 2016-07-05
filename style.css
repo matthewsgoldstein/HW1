@@ -43,11 +43,6 @@ nav > #cs52 {
     flex-direction: column;
     padding-top: 0px;
   }
-
-  #links {
-    display: none;
-    height: 0px;
-  }
 }
 
 #toplinks > a {
